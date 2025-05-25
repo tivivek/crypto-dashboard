@@ -1,0 +1,82 @@
+.App {
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+.crypto-dashboard {
+  @apply w-full max-w-6xl mx-auto bg-white rounded-xl shadow-sm;
+}
+
+.dashboard-header {
+  @apply px-8 pt-8 pb-6;
+}
+
+.price-display {
+  @apply text-5xl font-bold text-gray-900;
+}
+
+.price-change {
+  @apply text-lg font-medium;
+}
+
+.price-change.positive {
+  @apply text-green-500;
+}
+
+.price-change.negative {
+  @apply text-red-500;
+}
+
+.navigation-tabs {
+  @apply px-8 mb-6;
+}
+
+.chart-section {
+  @apply px-8;
+}
+
+.chart-controls {
+  @apply flex justify-between items-center mb-6;
+}
+
+.timeframe-buttons {
+  @apply flex items-center gap-1 bg-white border border-gray-200 rounded-lg p-1;
+}
+
+.timeframe-button {
+  @apply px-3 py-1.5 text-sm font-medium rounded transition-colors;
+}
+
+.timeframe-button.active {
+  @apply bg-blue-600 text-white;
+}
+
+.timeframe-button:not(.active) {
+  @apply text-gray-600 hover:text-gray-800 hover:bg-gray-50;
+}
+
+.chart-container {
+  @apply relative bg-white border border-gray-100 rounded-lg p-6 h-96;
+}
+
+.volume-chart {
+  @apply mt-4 h-16 bg-gray-50 rounded-lg flex items-end justify-center px-4 py-2;
+}
+
+.volume-bar {
+  @apply bg-gray-300 mx-px rounded-t;
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark .App {
+    background: #0f172a;
+  }
+
+  .dark .crypto-dashboard {
+    @apply bg-gray-800 text-white;
+  }
+
+  .dark .chart-container {
+    @apply bg-gray-800 border-gray-700;
+  }
+}
