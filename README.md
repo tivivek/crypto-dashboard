@@ -10,10 +10,10 @@
   <h3>🎯 Professional Bitcoin price tracking dashboard with real-time charts and modern UI</h3>
   <p>Built with React 19, Vite 6, and Tailwind CSS - Pixel-perfect Figma implementation</p>
   <div style="margin: 20px 0;">
-    <a href="[YOUR_LIVE_DEMO_URL_HERE](https://crypto-dashboard-azure-theta.vercel.app/)" target="_blank">
+    <a href="[https://crypto-dashboard-azure-theta.vercel.app/](https://crypto-dashboard-azure-theta.vercel.app/)" target="_blank">
       <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20App-brightgreen?style=for-the-badge" alt="Live Demo">
     </a>
-    <a href="https://github.com/yourusername/crypto-dashboard" target="_blank">
+    <a href="https://github.com/tivivek/crypto-dashboard" target="_blank">
       <img src="https://img.shields.io/badge/📱%20Source%20Code-GitHub-black?style=for-the-badge&logo=github" alt="Source Code">
     </a>
   </div>
